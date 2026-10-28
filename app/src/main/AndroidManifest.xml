@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:label="Flora"
+        android:theme="@style/Theme.FloralOrder"
+        android:usesCleartextTraffic="true">
+
+        <activity
+            android:name=".activities.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activities.LoginActivity" android:exported="false" />
+
+        <activity android:name=".activities.RegisterActivity" android:exported="false" />
+        <activity android:name=".activities.HomeActivity" android:exported="false" />
+        <activity android:name=".activities.ProductDetailActivity" android:exported="false" />
+        <activity android:name=".activities.CartActivity" android:exported="false" />
+        <activity android:name=".activities.CheckoutActivity" android:exported="false" />
+        <activity android:name=".activities.OrderConfirmationActivity" android:exported="false" />
+        <activity android:name=".activities.OrderHistoryActivity" android:exported="false" />
+        <activity android:name=".activities.TrackOrderActivity" android:exported="false" />
+        <activity android:name=".activities.ProfileActivity" android:exported="false" />
+        <activity android:name=".activities.AdminDashboardActivity" android:exported="false" />
+        <activity android:name=".activities.AdminOrdersActivity" android:exported="false" />
+        <activity android:name=".activities.AdminInventoryActivity" android:exported="false" />
+        <activity android:name=".activities.AdminProductsActivity" android:exported="false" />
+        <activity android:name=".activities.AdminMessagesActivity" android:exported="false" />
+        <activity android:name=".activities.ContactUsActivity" android:exported="false" />
+
+    </application>
+</manifest>

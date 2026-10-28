@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Floral Order</string>
+
+    <string-array name="pangasinan_areas">
+        <item>Select delivery area</item>
+        <item>Asingan</item>
+        <item>Bayambang</item>
+        <item>Binalonan</item>
+        <item>Manaoag</item>
+        <item>Natividad</item>
+        <item>Pozorrubio</item>
+        <item>Rosales</item>
+        <item>San Manuel</item>
+        <item>San Nicolas</item>
+        <item>Tayug</item>
+        <item>Umingan</item>
+        <item>Urdaneta City</item>
+        <item>Villasis</item>
+    </string-array>
+
+    <string-array name="order_statuses">
+        <item>Pending</item>
+        <item>Processing</item>
+        <item>Out for Delivery</item>
+        <item>Delivered</item>
+        <item>Cancelled</item>
+    </string-array>
+
+    <!-- Same list as pangasinan_areas but without the "Select delivery area" placeholder,
+         for use with Material's Exposed Dropdown Menu (AutoCompleteTextView) which
+         starts empty and shows a floating hint instead of needing a placeholder item. -->
+    <string-array name="pangasinan_areas_dropdown">
+        <item>Asingan</item>
+        <item>Bayambang</item>
+        <item>Binalonan</item>
+        <item>Manaoag</item>
+        <item>Natividad</item>
+        <item>Pozorrubio</item>
+        <item>Rosales</item>
+        <item>San Manuel</item>
+        <item>San Nicolas</item>
+        <item>Tayug</item>
+        <item>Umingan</item>
+        <item>Urdaneta City</item>
+        <item>Villasis</item>
+    </string-array>
+</resources>

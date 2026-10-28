@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Vivid pastel backdrop with colour orbs so the glass has something to frost -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="300"
+                android:startColor="#FFD3E6"
+                android:centerColor="#E9D4FA"
+                android:endColor="#C9E3FF" />
+        </shape>
+    </item>
+    <item android:width="420dp" android:height="420dp" android:top="-110dp" android:right="-140dp" android:gravity="top|end">
+        <shape android:shape="oval">
+            <gradient android:type="radial" android:gradientRadius="210dp"
+                android:startColor="#CCFF6FA8" android:endColor="#00FF6FA8" />
+        </shape>
+    </item>
+    <item android:width="440dp" android:height="440dp" android:bottom="-150dp" android:left="-150dp" android:gravity="bottom|start">
+        <shape android:shape="oval">
+            <gradient android:type="radial" android:gradientRadius="220dp"
+                android:startColor="#CC8E6BF2" android:endColor="#008E6BF2" />
+        </shape>
+    </item>
+    <item android:width="300dp" android:height="300dp" android:gravity="center_vertical|end" android:right="-120dp">
+        <shape android:shape="oval">
+            <gradient android:type="radial" android:gradientRadius="150dp"
+                android:startColor="#B34FC3F7" android:endColor="#004FC3F7" />
+        </shape>
+    </item>
+    <item android:width="260dp" android:height="260dp" android:gravity="center_vertical|start" android:left="-110dp" android:top="-60dp">
+        <shape android:shape="oval">
+            <gradient android:type="radial" android:gradientRadius="130dp"
+                android:startColor="#99FFB74D" android:endColor="#00FFB74D" />
+        </shape>
+    </item>
+</layer-list>

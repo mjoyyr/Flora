@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Original names kept so existing code keeps working; values refined -->
+    <color name="pink_soft">#F6C3D8</color>
+    <color name="pink_light">#FCE8F1</color>
+    <color name="pink_dark">#C94B7F</color>
+    <color name="cream">#FDF1F6</color>
+    <color name="green_accent">#5E8C6A</color>
+    <color name="white">#FFFFFF</color>
+    <color name="text_dark">#2F2A33</color>
+    <color name="gray_light">#EEEEEE</color>
+
+    <!-- Glassmorphism palette -->
+    <color name="text_secondary">#6F6877</color>
+    <color name="glass_white">#73FFFFFF</color>
+    <color name="glass_white_strong">#99FFFFFF</color>
+    <color name="glass_stroke">#F2FFFFFF</color>
+    <color name="glass_divider">#33C94B7F</color>
+    <color name="header_start">#F08AB8</color>
+    <color name="header_end">#9C3D8F</color>
+</resources>

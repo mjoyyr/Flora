@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <gradient android:angle="135" android:startColor="@color/header_start" android:endColor="@color/header_end" />
+            <corners android:bottomLeftRadius="28dp" android:bottomRightRadius="28dp" />
+        </shape>
+    </item>
+    <!-- glossy sheen -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient android:angle="270" android:startColor="#00FFFFFF" android:endColor="#4DFFFFFF" />
+            <corners android:bottomLeftRadius="28dp" android:bottomRightRadius="28dp" />
+        </shape>
+    </item>
+    <!-- hairline glass edge -->
+    <item>
+        <shape android:shape="rectangle">
+            <stroke android:width="1.5dp" android:color="#99FFFFFF" />
+            <corners android:bottomLeftRadius="28dp" android:bottomRightRadius="28dp" />
+        </shape>
+    </item>
+</layer-list>
